@@ -1,0 +1,1 @@
+print('Ayush said, "Hello everyone!"\nthis is a new line.\nthis is a tab ->\<- here')
