@@ -1,0 +1,16 @@
+from sys import exception
+
+
+a = int(input("Enter number 1:"))
+b = int(input("Enter number 2:"))
+try :
+    c = a / b
+except exception as e:
+ print(e)
+
+
+#this is always executed no matter if try completely excucated or not
+finally:
+    print("I am always executed")
+
+    
